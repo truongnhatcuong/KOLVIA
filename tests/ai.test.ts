@@ -37,8 +37,8 @@ beforeEach(() => {
     providerCalls++;
     const request = JSON.parse(String(init.body));
     assert.equal(request.model, "gemini-3-flash");
-    assert.equal(request.tool_choice, "required");
-    assert.ok(request.max_tokens <= 1000);
+    assert.equal(request.tool_choice, "auto");
+    assert.ok(request.max_tokens <= 1200);
     assert.ok(!JSON.stringify(request).includes(process.env.API_KEY_AI!));
     return Response.json({ choices: [{ message: { content: "UNTRUSTED: hệ thống có 999999 KOL", tool_calls: calls.map((call, index) => ({ id: `call-${index}`, type: "function", function: { name: call.name, arguments: JSON.stringify(call.args) } })) } }] });
   });
@@ -150,11 +150,11 @@ test("catalog matching ranks before pagination, keeps public filters and strips 
   stub(db.kolProfile, "findMany", async ({ where, take }: { where: { user: { role: string; active: boolean; name: { contains: string }; invitations: unknown; participations: unknown }; skills: { contains: string }; socialLinks: unknown; isPublic: boolean }; take: number }) => {
     assert.equal(where.isPublic, true); assert.equal(where.user.active, true); assert.equal(where.user.role, "KOL"); assert.equal(where.user.name.contains, "Linh");
     assert.equal(where.skills.contains, "review"); assert.ok(where.socialLinks && where.user.invitations && where.user.participations); assert.equal(take, 200);
-    return Array.from({ length: 10 }, (_, index) => ({ ...profile, id: `profile-${index}`, category: index === 9 ? "Beauty" : "Food", socialLinks: [], user: { id: `creator-${index}`, name: `Linh ${index}`, email: `private-${index}@test.local`, media: [] } }));
+    return Array.from({ length: 11 }, (_, index) => ({ ...profile, id: `profile-${index}`, category: index === 10 ? "Beauty" : "Food", socialLinks: [], user: { id: `creator-${index}`, name: `Linh ${index}`, email: `private-${index}@test.local`, media: [] } }));
   });
   const filters = { q: "Linh", skills: "review", platform: "TIKTOK" };
   const first = await matchedKolCatalog(organizer, "job-1", filters);
-  assert.equal(first.items.length, 9); assert.equal(first.total, 10); assert.equal(first.items[0].user.id, "creator-9"); assert.equal(first.items[0].match.score, 100);
+  assert.equal(first.items.length, 10); assert.equal(first.total, 11); assert.equal(first.items[0].user.id, "creator-10"); assert.equal(first.items[0].match.score, 100);
   assert.ok(!JSON.stringify(first).includes("@test.local"));
   const second = await matchedKolCatalog(organizer, "job-1", { ...filters, page: 2 });
   assert.equal(second.items.length, 1); assert.equal(second.items[0].matchJobId, "job-1");
@@ -205,6 +205,8 @@ test("provider malformed replies, excessive tools and unavailability fail withou
   calls = Array.from({ length: 4 }, () => ({ name: "get_help", args: { topic: "about" } }));
   await assert.rejects(planTools("system", [], "hi", assistantTools(null)), denial(502));
   mock.method(globalThis, "fetch", async () => Response.json({ choices: [{ message: { content: "999999" } }] }));
+  assert.deepEqual(await planTools("system", [], "hi", assistantTools(null)), { calls: [], reply: "999999" });
+  mock.method(globalThis, "fetch", async () => Response.json({ choices: [{ message: { content: "" } }] }));
   await assert.rejects(planTools("system", [], "hi", assistantTools(null)), denial(502));
   mock.method(globalThis, "fetch", async () => Response.json({ error: "provider-secret" }, { status: 429 }));
   await assert.rejects(planTools("system", [], "hi", assistantTools(null)), (error: unknown) => error instanceof AppError && error.status === 503 && !error.message.includes("provider-secret"));
