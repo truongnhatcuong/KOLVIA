@@ -48,7 +48,8 @@ export const jobPublic = {
   media: { where: { slot: { not: null } }, select: mediaSelect },
   organizer: { select: organizerPublic },
 } as const;
-export const PAGE_SIZE = 9;
+export { PAGE_SIZE } from "@/lib/pagination";
+import { PAGE_SIZE } from "@/lib/pagination";
 
 export function withDemoPortrait<T extends { user: { email: string } }>(kol: T) {
   const { email, ...user } = kol.user;

@@ -1,18 +1,28 @@
+import { paginate } from "@/lib/pagination";
+import { Pagination } from "@/components/customer/search";
 import { pageActor } from "@/lib/permissions/guards";
 import { adminUsers } from "@/services/admin";
 import { PageHeading, Badge, Empty } from "@/components/ui";
 import { MutationButton } from "@/components/ui/api-form";
 import { dateLabel } from "@/lib/format";
 export const metadata = { title: "Quản lý tài khoản" };
-export default async function Page({ searchParams }: { searchParams: Promise<{ q?: string; role?: string }> }) {
+export default async function Page({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string; role?: string; page?: string }>;
+}) {
   const actor = await pageActor("ADMIN");
   const input = await searchParams;
-  const role = ["KOL", "ORGANIZER", "ADMIN"].includes(input.role ?? "") ? input.role as "KOL" | "ORGANIZER" | "ADMIN" : undefined;
+  const role = ["KOL", "ORGANIZER", "ADMIN"].includes(input.role ?? "")
+    ? (input.role as "KOL" | "ORGANIZER" | "ADMIN")
+    : undefined;
   const raw = input.q;
   const q = typeof raw === "string" ? raw.slice(0, 100) : "";
-  const users = (await adminUsers(actor, role)).filter((u) =>
+  const filtered = (await adminUsers(actor, role)).filter((u) =>
     `${u.name} ${u.email} ${u.role}`.toLowerCase().includes(q.toLowerCase()),
   );
+  const view = paginate(filtered, input.page);
+  const users = view.items;
   return (
     <>
       <PageHeading
@@ -20,11 +30,16 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ q
         description="Theo dõi vai trò và khóa hoặc mở lại tài khoản người dùng."
       />
       <form className="search-filters" action="/admin/users">
-        <label>
+        <label className="">
           <span className="sr-only">Tìm tài khoản</span>
           <input name="q" defaultValue={q} placeholder="Tên, email hoặc vai trò…" maxLength={100} />
         </label>
-        <select name="role" defaultValue={role ?? ""} aria-label="Lọc vai trò"><option value="">Tất cả vai trò</option><option value="KOL">KOL/KOC</option><option value="ORGANIZER">Nhà tổ chức</option><option value="ADMIN">Admin</option></select>
+        <select name="role" defaultValue={role ?? ""} aria-label="Lọc vai trò" className="my-2">
+          <option value="">Tất cả vai trò</option>
+          <option value="KOL">KOL/KOC</option>
+          <option value="ORGANIZER">Nhà tổ chức</option>
+          <option value="ADMIN">Admin</option>
+        </select>
         <button className="button">Tìm kiếm</button>
       </form>
       {users.length ? (
@@ -60,7 +75,8 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ q
                       <MutationButton
                         endpoint={`/api/admin/users/${u.id}`}
                         body={{ active: !u.active }}
-                        icon={u.active ? "lock" : "unlock"} label={`${u.active ? "Khóa" : "Mở khóa"} tài khoản ${u.name}`}
+                        icon={u.active ? "lock" : "unlock"}
+                        label={`${u.active ? "Khóa" : "Mở khóa"} tài khoản ${u.name}`}
                         confirm={u.active ? `Khóa tài khoản ${u.name}?` : undefined}
                         variant={u.active ? "danger" : "secondary"}
                       >
@@ -76,6 +92,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ q
       ) : (
         <Empty title="Không tìm thấy tài khoản" description="Thử tìm kiếm bằng từ khóa khác." />
       )}
+      <Pagination page={view.page} pages={view.pages} pathname="/admin/users" values={{ q, role }} />
     </>
   );
 }

@@ -1,13 +1,16 @@
 import { CollaborationWorkspace } from "@/components/collaboration-workspace";
 import { WorkspaceTabs } from "@/components/workspace-tabs";
+import { paginate } from "@/lib/pagination";
+import { Pagination } from "@/components/customer/search";
 import { pageActor } from "@/lib/permissions/guards";
 import { applications } from "@/services/collaborations";
 import { PageHeading, StatCards } from "@/components/ui";
 import { CollaborationList } from "@/components/collaboration-list";
 export const metadata = { title: "Đơn ứng tuyển" };
-export default async function Page() {
+export default async function Page({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
   const actor = await pageActor("ORGANIZER");
   const items = await applications(actor);
+  const view = paginate(items, (await searchParams).page);
   return (
     <>
       <PageHeading
@@ -27,8 +30,9 @@ export default async function Page() {
       />
       <WorkspaceTabs role="organizer" active="applications" />
       <CollaborationWorkspace role="ORGANIZER">
-        <CollaborationList items={items} filterable kind="applications" role="ORGANIZER" />
+        <CollaborationList items={view.items} filterable kind="applications" role="ORGANIZER" />
       </CollaborationWorkspace>
+      <Pagination page={view.page} pages={view.pages} pathname="/organizer/applications" values={{}} />
     </>
   );
 }

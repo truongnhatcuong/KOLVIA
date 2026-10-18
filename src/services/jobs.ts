@@ -5,6 +5,7 @@ import { jobSchema, jobStatusSchema, jobManagementFiltersSchema } from "@/lib/va
 import { lockJob } from "@/lib/db/recruitment";
 import { notify, notificationTransaction } from "./notifications";
 import { jobPublic, publicJob } from "@/lib/db/queries";
+import { PAGE_SIZE } from "@/lib/pagination";
 import type { Actor } from "@/types";
 import { mediaSelect } from "@/lib/validations/media";
 import { activeParticipationCount, activeParticipationFilter } from "@/lib/db/participation";
@@ -33,7 +34,7 @@ export async function ownJobPage(actor: Actor | null, input: unknown = {}) {
       OR: [{ title: { contains: filters.q } }, { location: { contains: filters.q } }],
     }),
   };
-  const pageSize = 8;
+  const pageSize = PAGE_SIZE;
   const [items, total] = await Promise.all([
     db.job.findMany({
       where,

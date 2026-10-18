@@ -1,13 +1,16 @@
 import { CollaborationWorkspace } from "@/components/collaboration-workspace";
 import { WorkspaceTabs } from "@/components/workspace-tabs";
+import { paginate } from "@/lib/pagination";
+import { Pagination } from "@/components/customer/search";
 import { pageActor } from "@/lib/permissions/guards";
 import { invitations } from "@/services/collaborations";
 import { PageHeading, StatCards } from "@/components/ui";
 import { CollaborationList } from "@/components/collaboration-list";
 export const metadata = { title: "Lời mời hợp tác" };
-export default async function Page() {
+export default async function Page({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
   const actor = await pageActor("KOL");
   const items = await invitations(actor);
+  const view = paginate(items, (await searchParams).page);
   return (
     <>
       <PageHeading
@@ -27,8 +30,9 @@ export default async function Page() {
       />
       <WorkspaceTabs role="kol" active="invitations" />
       <CollaborationWorkspace role="KOL">
-        <CollaborationList items={items} filterable kind="invitations" role="KOL" />
+        <CollaborationList items={view.items} filterable kind="invitations" role="KOL" />
       </CollaborationWorkspace>
+      <Pagination page={view.page} pages={view.pages} pathname="/kol/invitations" values={{}} />
     </>
   );
 }
