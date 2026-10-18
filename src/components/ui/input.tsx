@@ -1,0 +1,3 @@
+import type { ComponentProps } from "react";
+import { cn } from "@/lib/utils";
+export function Input({ className, type, ...props }: ComponentProps<"input">) { return <input data-slot="input" type={type} className={cn(type === "checkbox" || type === "radio" ? "size-4 shrink-0 accent-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/30" : "flex h-11 w-full rounded-xl border border-line bg-surface-low px-3 py-2 text-sm placeholder:text-muted/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/30 disabled:cursor-not-allowed disabled:opacity-50", className)} {...props} />; }

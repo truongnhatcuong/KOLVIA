@@ -1,0 +1,230 @@
+{
+  "source": "Local export supplied by user",
+  "screens": [
+    {
+      "screen": "b_o_c_o_roi_chi_n_d_ch_h_p_ng_i_n_t_kol_connect_ai",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/b_o_c_o_roi_chi_n_d_ch_h_p_ng_i_n_t_kol_connect_ai/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/b_o_c_o_roi_chi_n_d_ch_h_p_ng_i_n_t_kol_connect_ai/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuA15pa3Gbd_fV-Yq4qbP7u5ldXPYRY9r3_8ASrC44gjTdczwALPRmOsGEmk8-VeSQQ13-84EQ9gJJLImVqOGxGnOYGdqYfB6WZcuRzz4qHa-vI8TMHXvQEM8s6yekI5iidwkbHane_M-GUUcqOFpavvMMCOMZlICei3pKkXz9NoB8_ZwMMaU6zwNtWpgUAx8NMFLx6rLiV3SJvFR7WUYzFlap_gfqMZKA4cjlA-I6eLGoZW0iOxU8NKHg",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuAqhbQFXGc2BB2i2Vk9rqFeJMZX3Qh_yWpFXApffQTEjYj4c-vNeDRC5mmVcgu-DSBwTpwMaxqybi3P-0GQkEkA-Gpo_k54hC3QVajym_QnNklmmciVTSxYopFZUDM5wPiYCEpkzS1MUROy07yCzlHoWTJt1o_dWV21pfzV22mQneoN9pG91aHA0XD0ccpRKtI0rUnlQniRVXcrgltlv6yEA7LrkQ5vKfK-ZrlnjlIBWsATp81GtM-4fA",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuByHwdgGgzi5D8z8Hnog3JQ-AdyusIAgt3kCpKdKNB7uXO6_s7mcVH13atRC1ZwWSJI1sgbdSVxEDlrTHDNi7jvn0RROTp5_qVPacsp1xcMxDXO9I6dKemn5fD3v_vgROxuYWE6BZXkY0V-ZjwOXwKpIcYXIGO9tSkieRM_NxOwDgwZCHYkWA1e-2J7nb_COaEIuDFlE7J9dttDDe7G3oWYfZdrbSfVm7S28xeQhTTmg2uFxw4d4nzdUw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDisQcHCZ5U7Cm9TPcHvUehcejpBDEhitZTdpI6xzO8G28Ti_Sb_4CYzPh3O-s3cJ7wm0xZagxejsGj2h0SccIVfbJ98Fy-xWP1Kj41znBM9mvsSvbHS4AJEyWKJWUJotm3tTKxAB1PjZPUCuhY_A2z3gW7sgE2cgSY-5_mT0eiVAv2U8S9Nxn8Uf8Z-eymzrjinqgwcqR-vkMs6KpP20tHPLJg_hlotuNIJHoRxz99R0pPnaeFmQO-QQ",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDpY5_x36OMpRq-PvvZldNyt-LWcj-2TsG2cBLMrZCYK5Cncb6PLsCO0db1f-bykL3n5rhY8E2okHInOUQycF_vopp_IqWqm4-cxeWpGZ03alo34qh6D33oSiB6RWYNpYvbCwD1f42U3LxtEiJvT2xWe8lUu2hhiR7Vr2dfsjgTdCj5YtBEhWqPTc-wN35R8F2FOMVuQK9ccvEOLJ-hw02q4U7XP-R55xnz3ifW-8mdIKazWUDkN13oiQ"
+      ]
+    },
+    {
+      "screen": "chi_ti_t_job_ng_tuy_n_kol_connect_ai",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/chi_ti_t_job_ng_tuy_n_kol_connect_ai/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/chi_ti_t_job_ng_tuy_n_kol_connect_ai/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuAvJkuMoQhEnQ6D0DinYJUK91VJNiKxQrtQzYGkzeUO1QlS0y7LGCoxRAvzvbSyEpJFrIa0EuCm4AvAse20jWF7T62a7tPRlS1VhGx4G16XiTdTfdYdj7ywHkCFo4QyIkPmVeAhtt8OLqjvf76GX6xzk02RltmUt3e5hm1F6rK7M1HEI5y4WAJteM1Z3jpKn5n5AHrOxecJXa8r0P8udIpzVnXxq6Aoa_URui96foF11vAK9WwsO__CPw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBodb1id6cdwmWRLh8UEt6FvFr5KDdrtoivMEpGPI479A0HzLWFeYGOnChnB2nu5l-6BMKHBUc-psmHH2WEEnrVlMzhuQqoT4m5tNHc07WI0Ga-ckNrUgzrSgCKIZg4fW15V0EwIqE0Vnr33KbQvNpEYhwwwk08WHkQqE8gAG4nNQERrUUYmLboJzW95_FC5F86d0912otl540ZG9Rhap7cJ7RokU8jxSm_FVtI708mNYNWLluZy1JoXQ",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCaBSO4ktqrDl_chaZETJ6RQC4y2bDF1LlZvFVlC2s9n4xY_47FvoxD3YAxv4v5U3gzA64w2XyqjEN7-uZVXEgqsGCbaTV2aKOIH-p7EYmAE7BCxvSQ_zPW5KfGszyiAwMbscAkNrKhMfTLSpuLl3ZSj7X4WBKkyc81yrKj-7o-EjiztOGHOJdKCTvuhFHn5x6ap69sGKoJI3_irmdNA7KUKhan9pASMMTrUkukzSk0hWj8helzUGfUOA",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuD4oIUvmHMaM9_HluzncnX8KJDByiPutOzpQEOyL86nQkm_9W4G7Hz25mOADCHh66ZcXQF7LV4LgIjFe_Ovs-kAqGPL6ocmqq3lRIsJRjCPSNderp-Rc03uJyYCzp_rCsf5N72CFIC_KQ9NpixW9YCAlI0CyrDX9eeFdFbCl0p5vSUKPLYA3yvjgeJQ7Mnln5Udv8Y1bjLu-6OR4Lg7m0aqvy9iec1sD8JWaVYWafyZnj3n-qm5fmm4Kw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDSL5n7gkqFx7o45CL_eBtI9K298_PV1TyCwRsQWyZf6VCRv3VBzQaIKM71iTEotmIAYb1yqK2AjYnBkffzxg2Ob8t8ORTUvna7RRAmin4gqdlK3LfsRGIAQfil35oOL7F25RqO4E-iJgMfpDcAC7V0aZoHqcyn8ErZYBcR89aKE19xTBGsnp8jnA_BP_cLiNp7sTxHe-ino194_sH1n1BYYIOyEk5nHMff86ya1WXiPBR1iNw2Vmj3_A",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDsKWNGS7XrSGGVPCqlsEqA1yFphSQNbDRc1TXBuuph_WgiN8NeZ0WDmWdA859CPf1loBku4ZYTQDeG3RruA_8ERQ3TpNozjwJDE_v4E0enh1rX39aAakFlKHl9o3vYWoQRwSCpPmZ8LhrSrXvOviEPQN2PO4P9ZMqDmgsc2dsU2QQvSM_-0CXnPgfCUX5-1vZrhBVl1EOop34AUIbGeDCRwOWkwuUORBT89vGXUfsk46LCnKdubwvtVg",
+        "https://lh3.googleusercontent.com/aida/AEtjO1W-WGYGrJtV_L6qYF-LUz7crLZ4fZ5B3pNjHuQaJCaQZRWt_Wzc3X4Yy6x0WYcvQ0wkUEdpV-h8bBOYDGqRI8n7J1_8viR_yCjSqYmSSV1e-6Gb8_04L_ETyaBsrOH8LzUkGJqXpsSoxqsxwW4_iDqg90nogoWRBdi2YK0JQV3nj-9iJ_jEsIGxam6_TqFOdXrpNLEkBk2yuBpFBCwGfodypa8ts5Gj0uw63IWtKNdB9owlWeLahtS5PY08",
+        "https://maps.google.com"
+      ]
+    },
+    {
+      "screen": "danh_s_ch_job_kol_connect_ai",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/danh_s_ch_job_kol_connect_ai/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/danh_s_ch_job_kol_connect_ai/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBGlIkzH_0PHon-nVHsQhZG1-mtmA-GvKcFKVWA34MmaCQRGwhX3ZwY8Fl5-MIAZWYvendMzY8Am8G2Kg1z_R2VtyzTp_2qPu13WPvlYR5iFOIlNiIzc-TipKWzsNGi-Ie31QzCQQXIu_wSeXS5SwC7o46h4kqwFfy-WRClHMrFCtxQAnoeUqjRyK0pFo0xV1KcXhPpts-j3He3PoLkGAFA811szqvKE8Rzy6Bxnh5yrn9catA86W6G-g",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBr52pYWCPSzNncZgSMWPTW9KJfx_77AoqeKpHbXblscT8HjRixKqXJTKWjGPWqdHjkr3eKpoCQNPahtuoF_T03c1xN2ow3KloGOdDB8OroHQ1deYRUib1bGCMSrrmaX82M_JZ2dF6mJuIl7ftu8xVjQArYMsuvjo0QADeNcF8K9NJSoo1QNiSBP6NpT5u2o7rbHwTwzPLpi0XOmYhfTJuDHrVD4FoiQ1jXKpwbM_BtwwtQ8z6gdZyZ6g",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDFTf5ggJTc-nufHsEScrsw2GrnEVaszm192UDptW9U5bpGXQK75oLp8h5jpCVy0B0iAkQbZ-3__XblxtBbnRu5DOvufZHMJH5KgZQQ5PRrFcT0vdOM9lVgo-VB9bTAjKHX1CKXEenHoGsdvXKuXS-PoLv7elJWrQbXUuuX39NAS0BOla7PJiWSUOwE-T4ZQUVqspfwOPonYKqdvRjCnQtKuTsM4y5e-aqtkpz6IoV6P4i8MZ3m-yWK6A",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDI-NizneiIIeWgXSnOdbcd2XXLijQ0Tbb2w_PxL4-Az4DY7q9q2RRiZWlUgDNdPEaEgan7ADrGDNptjm7MZG1A_KrgZnA8u59MUwr3y4MkNylTzWkXnLD0i62ckgn4bVRwAkKeHLwcepG7-ADtdCFPrz4THkkISQn-Su-Dw_zUdIoGRuugIGrpf9dXmGPWzvOBolGBv-unmLu7y-02c-nT_mzVjdLUXlBECom9RlakdYmZEVI0W6nRGg",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuD_LwRBWdVVgmbDBaqa0kKDUp_CFbCmU9MV3GW7ete5_ppxZG4gHaziMNS5XhIeV8Ll4QJOH_0rPLKDQ3xL8vVOCgN1zrumc_mVLeAPrmllza6AKai0hFMy-mPyI8ipTX3FDTpZNtoTlGBl8VXHNlCqpkjMKgGS9iTb2bwc_7e8Vd7FLfXmX2_PA1fGaZnWKLqc5OA8eJcwoB6KGOKT7Qqs-9qWERo1p2PSe9ASetgNA2zQ2cROpbQbKQ",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDrydNjPu7Ciq5vM68FI0kF21k1dEfamtk6UEGKoWBF4dDSRpKhMX0ueSH3EG61yTtlpHeWdG834CKkSF_FBqE8HAh9E54R0PSfPk8u0SPHiflax94LcOc44_gS7GHc584_0V3C0MkLtgJVZSwd4w6ASH_Bjlj6sAFeEdq_kBh-d8fYmol2KydhUXJ7Cz8i0c_1Vgb3imLSot-K23o0BgBjDaLBxSvYYDxA23b1S4L0aFz0Y_Iw7qRmAw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDsKWNGS7XrSGGVPCqlsEqA1yFphSQNbDRc1TXBuuph_WgiN8NeZ0WDmWdA859CPf1loBku4ZYTQDeG3RruA_8ERQ3TpNozjwJDE_v4E0enh1rX39aAakFlKHl9o3vYWoQRwSCpPmZ8LhrSrXvOviEPQN2PO4P9ZMqDmgsc2dsU2QQvSM_-0CXnPgfCUX5-1vZrhBVl1EOop34AUIbGeDCRwOWkwuUORBT89vGXUfsk46LCnKdubwvtVg",
+        "https://lh3.googleusercontent.com/aida/AEtjO1W-WGYGrJtV_L6qYF-LUz7crLZ4fZ5B3pNjHuQaJCaQZRWt_Wzc3X4Yy6x0WYcvQ0wkUEdpV-h8bBOYDGqRI8n7J1_8viR_yCjSqYmSSV1e-6Gb8_04L_ETyaBsrOH8LzUkGJqXpsSoxqsxwW4_iDqg90nogoWRBdi2YK0JQV3nj-9iJ_jEsIGxam6_TqFOdXrpNLEkBk2yuBpFBCwGfodypa8ts5Gj0uw63IWtKNdB9owlWeLahtS5PY08"
+      ]
+    },
+    {
+      "screen": "dashboard_kol_t_ng_quan_ai_matching",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/dashboard_kol_t_ng_quan_ai_matching/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/dashboard_kol_t_ng_quan_ai_matching/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuADnS4GRhVpp9ls43TsqMHcQYmfXkJrUsu10_yUFsbTdYBGQLqqHft_agDytamtjdQYT3MywiOWx12YSE3F4IY4IJ7jXWS0PUvPh8ndb9EQh-AgGpMOTbHRPwdvdklYBGCNBRNBwV_yp0_X76S9V_rYF-tKwQY110Zs9YEdMTQjSAqpUqEuKBBaDRTNWGZS4x1e5vSZOaQ-svsh8TZFbkOo9sUGT4rq3Iuoxd22cBg4xZUbE269pOJbNQ",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuB9o_CMM4FU6AT4dFof5HUiVbiA8MuLXnIPqpXA5irSjrgN0IiTX9NeOIoypziDktaLejLpBakIXCwAmFpwRU1ODLCE75TfFfgiSeWF_ynvuZH_ZS93APZkxOrZMdecunuX96bec9LgOXJTQ_uGhaZYMMqqQ7n21TjM7oTYRiLjJOYG8GDr7SwEmn8pCRVF9EoXI7bFVPR_NYeiWbtiMwG7lWn9Twi0gvVTXIepn0XRp-dw4FhpHHjCtw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBzHm4TCBh57GUy1pk2ch1XXxWQgVvR1OE-Wi05zgayplC-YKLGXz7VMLWSrADsKIO6ulT99xZ9lqkjJxlvSaQlpGYpnpa1FGwH2Bnivyds2z0rpDkZngBtANTM2KbPzUgjUDC7sUffpjqjOo3BSYxSRHOfKTIrjSrjiIIMnRu2dra2ZZ56uwT7xzZXYA17nDeNz3B8R_iKZWyGHDN2FGQurgUCcTS9lxJp7Ictqlh6aMuAWgRh8YfBpQ"
+      ]
+    },
+    {
+      "screen": "dashboard_nh_t_ch_c_kol_connect_ai",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/dashboard_nh_t_ch_c_kol_connect_ai/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/dashboard_nh_t_ch_c_kol_connect_ai/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuAHVb4OCFswOHxygYyS95vc5BYLWqOXba7i78nyA99VdS44BX5gOelPhuP5zDEwV78ZlDMGmMX4wYEZ60SIQ_lHbVEZmFD3A_WyBLd__nFdbC_fIX44OU_MXw4TQ9Hmt2qmFLouh3OKTkDQBdhWWZHa1eOkf2_yskFSFaJcq6gHOJ4xOHr21eR4kAk97jYM2vH0qJjw_aI71ahuPhrFtTaKsTtDdKHXNYR0l66hZ0MPfEQPPNPIfYOKlQ",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBIz6Blope7cujxveUY8CKKsJB-GMzOwrVodNpb6Zi9Vr0YxIOQ_SrAI_vgWx7DDV1URdqttSLSnazvZWdoYJapDDooOJw01ZwUP0Mfg2S0ewp9460BiWP7ae8uxTQweZ7312WKX_NFb-RAvxPQvJDT_vUJ_Syu8FV-6zc2gL3jajyaCjVG-zcPR28HJP1apVI0JE3t1-n2i6UI9WARYadH-b6gWzC8BMvqcYkYKNa60IsGcBOTxWXVsA",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBdHcWu5VFk-fzXLa719xS7r7tGEe1IMuqLqOz7OzILEJVbBgyPIT_79RaIGYL3VflXhDizw2s7X0Tb6h1D5d9f2RWxVeDLXAWH-6GZFo5LTEvH4bmDLcT_X8HCu2gp4eJ9BdOfU669ePxXcLqlqJt0ugFKMCxuYNmzIII4mW0jsLktsCOc68vY1GhYhvTyCEPT1TVa1fpJ8BTc8buElCKQHJXa-x43nXbwNkm1O9V0dtOUKuCERgBz6A",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCaSz9_GVuo6ZFzmmZ0n0mC4pIshqc84N7_5gcOLc5qT_Zzu3oZad5hBIJzOB1bfVMrqjYqCp0dZji1bwtw8ydbFScG7ybDEH7ojEOGlW4g-bwISnTTn5_v-wrlgvMlL8E-jCWuoivUbbQmKKyR4hdtW2vwECBewSyPBmmwtnOnjNznui0fiNiOAO6Svx6NtWtMMTWYvJwuEHDCtzSJHW08Dl6__NFniqXkMki7phDBQQzQczowZiHjMg",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCofrscistoz3Z-ggFi47koakx06aWcDNcHx8bxhchR6vACsWH9Nv2p51cjrZdfiL3J-EQzqTNwyywpn1JfIBkMKoizSg4ZYNKXqi8Br_HfSVJBBQnzykEwPtMtPXqdhLocXqFHTpv-cgqpSZqviiXPvxDbalSoXppCB-cNd5vseHwNxIMzL3TKgk_qmdygCLheU0ODOSzjrIi0Pnx9Zxyd9kmksvkOkj1MtwKL4nRWpUbsjiW59Wc-_Q",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDGHWUnYqYb8koT3mO6xy1RWfFU2C4w-QfQTyj_w2Zwhd4q7SHh_uTEc-OAnXKPOKHKUWQnAy8UjPfGBeQbVQ339OkB0N7ln0Nbh8r1O0QXx39ohtZvYHm_laDYZqtPcFfKOqgxkIsKpPiq77Gx9_QHG4-t46Kioxt3SqUfoALIy5dX2yFRYGcWRkmoNa0ag7QnxE7aeP8Qf4_jBZqqi3kYzOO4kPCwf_HUduDQi-OO-x005h4EUYHkBQ"
+      ]
+    },
+    {
+      "screen": "h_s_c_nh_n_portfolio_kol_connect_ai",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/h_s_c_nh_n_portfolio_kol_connect_ai/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/h_s_c_nh_n_portfolio_kol_connect_ai/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuA46jpmZ3Y-W-tipRGwPJFYkr87W49ubB3fZV8UtpWdkLG-rHQZ3hMB-tN6vHnmSyiO6fDGsQ1EsQmjifVffO6g-k15nyjXLJ9j3A6iGOVsaq7m7jW-czt2lSrlBAFpl4EEvuudJQSGf7_Yteut9POBJPgVNV22hWfG9pRq3qj24SmrXWszLyZFUwojYIzMqn1LkBy3vwV1P2vLoUrfmyfHXDaXlNFn74rgjLrkUhMhHBLKa9gmiudQQQ",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBYa2hz8Nt3iyjaVFH1F3B-w1MkQCwCgft6G_cnmP1RxtFfyckvbX_xKGi_eybfy3HYlURB1mljUKwT2kR09Sg9rillMdWrNiX63urMi226XQV2mG0oklOuUAYurlc8YIRVtZV_fJGnnFKt_1fMGOdAvFPDRizcYlKH_rwv6GM7Xnab2biwvznMG-qDdYpzWJlNbcVSRlgYqxzecYBHMjB42_ktBQWX1glVA-JtM8BfvZTeQCh21LiZgw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuC4kd_LMuoTGkkhatpHKhqKcqXZBPpyW0s2G1WVqJc6vlfhdkFNHaoxtvTmJ6AeFyC7TP0iITTCqpt58SDcIYoKMRlrCcMYMJDfQoKlO9TLiE9LxLnE9_bKbb-wVvgmMrum4G9BpQUeXfeE996NsU6fnxG5pOxRu4v8MuyINBEJ7Ltvf3tNSeeKBJsggdIH-UW3ietNjniLE_JjFjxJicqEaq-OWNhfm_wRHeJJWSpG1EEwpNBACAmoFA",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCVEEGLj5DSlQ-neu7_Z92hLeq5EWCma7z8JuLWDOO7GVA2tGpOlAoDTo1uSv0wxudPdl0wk50Z8zAINR8nOWfeVxMmwm9DxnsuvbcQ88zqQkaTX-VBlPbRYobq83oHK7m5cMxKNKhwRDuOJINt4fhX_hIe3wBwUdzMoFfdE_kkc3qG4_o-oqPWekKTBpNoB6UgN5r36JSrZ306sniKU_M0CRoLAN7psR-luW8SCB-akJThIjUgdtbcSg",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCliSwWZmcF87eWIq4Duz8ivoEBDp4v6GGtNXZUccgBj8VwODfuMjjTr36DPK_whFvgaUG3-_KwctqJ-NdBaIEcGA-hxjcagaJ0nqJM2SDTzumIb1ongIFtPmK_pjfQU1EDajhy29hoyMvbV9YyvPHXmZDcs0BItGLtU_KmQzNypJfdzHgzgpf5myWcSPEhXu7UfP7HG6EhJDVZXn3bEln9k8jhBy0_LywpZsBmPgJmQ71YPvSZ0sNuYw"
+      ]
+    },
+    {
+      "screen": "kh_m_ph_kol_kol_connect_ai",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/kh_m_ph_kol_kol_connect_ai/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/kh_m_ph_kol_kol_connect_ai/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuB-5fbW3HWRL4J7egFp1TVtnkdPKLu-gMLF_rmqpOIc0sXVhkROadrZSRUGQn24p03Vd8ggML2jvReTPLv64TddkBf97X8Uqn0kh5I8niBgINH8Y6eY7u0AU6p2Pu_j-LClc866gpMY0BEIKlS6_YrFfOMdNbW8rAYxbdar3MRwffEd5-fLdlCKfvkQX__zhGavcug8se_E02_H-UkHvcFKZZqDTkYaTNctmnOi6jVhhj3gXe7iuimmRg",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuB_w0YpnZV2cSg-d9yh8aH-m01bvUJCWuv-WIoyesnYN2wXMoiwgkLBbUw6apYw-ITXjyA_MU7QCjUWi5rueRO-_KdwxzgfsnrLfzUfaplNe9Vq743flHXdrZQVulSTZF0bCCPNRFZm7CyOkyJ79Oz0OqdefjpZ7fHyMiI-T1cW6B_9MBbXHnNUD7ORQRu3n13mjFnP-fwPeBwd-81YUNnVqkFp1JAQXXMChxhFg1yBgpMyVaaoI5Cd-Q",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBxwnTepq8LpKKZkClDLKpjGsLP095ESNZFl5YdNVmGNh54mNKSu3LBnJrwbpZv-u3QzuBsIf2nQhBQhOl48E8oSMGe9Fwv3yrA2I1_8WI4jKCX5RlUbVEwknCqsdElCCUqPjhtA3i-pU4S4WlvCNe8OmzwSYljJ8iXk5fRhSOuLQ0TS6f8n_aNcjr4iU-71FjkR3PtShHg369rf2mXLEtP1xua_cV0pGYzqUj1FqJha9038IaZZYTe8Q",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuD-RFKOmY7jO71o48WiRu9WYMb9lCaveqqpxukGG5H-IBSKZ6hjgiV0C6qlk-vQ5uiBqRr87Dwl6-pAnmiD4gVr9W0fwBt7PxuLOBtCdlDcJm1UmDsYRi73FGZwbFm1prqcduhzdhk6P41MJajrQndVGXv0YPfgYEb-BevLMdRSXOLnuGzqvXzlJtXoPxoVEHDIOyEiqrwDHz6m8oIM_o8aiGQLjntZNa8OzKZRMYY_U22zHzMOMyZ8wg",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDr7mZ4w8G0x96GlfafvcvTQKO8LDHBwPo7-OnfCWfJxEJrsJaPN-9LpB-usWnufCnTweoIzkL5QsW0Sp537SZcuMvi4IK8exiE0OwmFFwboVa2CreCGbES9Zj_ijoKlbSkpjnRz3szR9BXwhJJQMkxfrIFko1keG0vj3RTAD9Iff6fs9yoF8ODdURIPcaC5HpuI7N0xUAqnmrHAHYplVH09HiEbmIjcTY97msYYrQd7O6aUXL-9cgggA",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDrA5A6T6cIc7hzb8P43OITc4XSoZ0yuevd6ffnNm1XA9HPhd2hlRCBNSrubDXtsrujsC1AHD3QHdqJjLHLVwMEiKQ7lpijMQaar2GCftc6fOomvWQxMj8SaGUiiHmzZDSc9Lb7xepcD613C-TlVmdQGfWiAA4yCn7ZaIjNPLiD-LL5GfAuxp_vFqvC2exKmn_0j2Qto1W9RbTUDlCYYmzmtKyNGclo65E3xRhGpA72uMAdl0RJFq0IUw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDsKWNGS7XrSGGVPCqlsEqA1yFphSQNbDRc1TXBuuph_WgiN8NeZ0WDmWdA859CPf1loBku4ZYTQDeG3RruA_8ERQ3TpNozjwJDE_v4E0enh1rX39aAakFlKHl9o3vYWoQRwSCpPmZ8LhrSrXvOviEPQN2PO4P9ZMqDmgsc2dsU2QQvSM_-0CXnPgfCUX5-1vZrhBVl1EOop34AUIbGeDCRwOWkwuUORBT89vGXUfsk46LCnKdubwvtVg",
+        "https://lh3.googleusercontent.com/aida/AEtjO1W-WGYGrJtV_L6qYF-LUz7crLZ4fZ5B3pNjHuQaJCaQZRWt_Wzc3X4Yy6x0WYcvQ0wkUEdpV-h8bBOYDGqRI8n7J1_8viR_yCjSqYmSSV1e-6Gb8_04L_ETyaBsrOH8LzUkGJqXpsSoxqsxwW4_iDqg90nogoWRBdi2YK0JQV3nj-9iJ_jEsIGxam6_TqFOdXrpNLEkBk2yuBpFBCwGfodypa8ts5Gj0uw63IWtKNdB9owlWeLahtS5PY08"
+      ]
+    },
+    {
+      "screen": "ng_nh_p_ng_k_kol_connect_ai",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/ng_nh_p_ng_k_kol_connect_ai/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/ng_nh_p_ng_k_kol_connect_ai/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBCIR1c_961PLklk_-c7iWiPH5r1zPDrvDqv5EzBQ_2UeYWrhGtcPn7a71ObMhqDX8zABQSWx1aIMuuLCb1o0jHPPVP9RlrFQ5YHOQhY10mg2DATUL_vPAOrGYFLoO_WDzjiEjXAbqlrrWkSmlRaXKvGbEk4C9MCalUBAddlDsHNSz0qpUhI_Tmu5ACdw1DSsC1PCqEToFujQjS5TfO88nDAa6gx_edJUV2cca02xJQDW34n0zF6qvw0A",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDsKWNGS7XrSGGVPCqlsEqA1yFphSQNbDRc1TXBuuph_WgiN8NeZ0WDmWdA859CPf1loBku4ZYTQDeG3RruA_8ERQ3TpNozjwJDE_v4E0enh1rX39aAakFlKHl9o3vYWoQRwSCpPmZ8LhrSrXvOviEPQN2PO4P9ZMqDmgsc2dsU2QQvSM_-0CXnPgfCUX5-1vZrhBVl1EOop34AUIbGeDCRwOWkwuUORBT89vGXUfsk46LCnKdubwvtVg",
+        "https://lh3.googleusercontent.com/aida/AEtjO1W-WGYGrJtV_L6qYF-LUz7crLZ4fZ5B3pNjHuQaJCaQZRWt_Wzc3X4Yy6x0WYcvQ0wkUEdpV-h8bBOYDGqRI8n7J1_8viR_yCjSqYmSSV1e-6Gb8_04L_ETyaBsrOH8LzUkGJqXpsSoxqsxwW4_iDqg90nogoWRBdi2YK0JQV3nj-9iJ_jEsIGxam6_TqFOdXrpNLEkBk2yuBpFBCwGfodypa8ts5Gj0uw63IWtKNdB9owlWeLahtS5PY08"
+      ]
+    },
+    {
+      "screen": "ng_tin_tuy_n_d_ng_job_m_i_kol_connect_ai",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/ng_tin_tuy_n_d_ng_job_m_i_kol_connect_ai/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/ng_tin_tuy_n_d_ng_job_m_i_kol_connect_ai/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBPjOKgBBQHbSUBzezTE57IJniXH9N-YoJ70Or8WimWrcm-SUe6SJxBFBLESVa4mLwZqFViPCP_42gH5rO-z-xANLPNVcqu-IJADQGbzVv7tLwKAE5RSpF4ynsdCv5g4tw6oU9HsJ7oFL2VW08Gqf8r9Vx_CsWEFzsbN9JErdEn3PxJOGjZXtjmpsa0U8vYYAOs1iGfdtxFWXUafLeOjZQDzrYntyGV_e2pudgo85pJ8faeMX1QGg2s1g",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBZJqosTkM1XFwl3jD7QVv75yLzLG-DnNZtIxGPWqsJk709Is4cADOXt-Sq9Gj4bUBy3KdfNOttL-YZkA7zN_xsG6bS4M5q6RlPWdopUlF8F6vdBodtW8nQzD8whvKGLuYnOSoYMjZSiuBkR52gXnCcUV1YBqZVkakBx96-uO0wglv8fw6n9ZSWpCy3hs6vQ_U1BD0YDAJ6E_jcCwvqYY_J-3A3M40vhGUahZugmppg9FgPfSTcHbDGLw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBZZvZprVSmZk05gQQb9K5CVgyGLkqcBkMLWcwL-PQc16V-hvJm0OMhiTvdimf8F6AvaVrY5CKLOdrapj0Q3fv5KtCHuBzbDOnSGE_tk3HOzn5BH3zE5v5HtBnbew-Q26DoZcnIhuBVfraNzlP_7qvvD99cqbz2NIHn92o9gvHNfV-4UpyjwkxyL_leSptABVHmipY1cUV-x8mGyE8IFqF2mKfEtYSWlu0ORSrq2Aj9-YCv2wzenqtD4A",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuD_2d-Y1T42xgwpqzrCIq4-Nr7wsEt_7a_lQpTAAdkcWNq9pAkjxJpNBzKnkwu2f2Xs1cOpIgaTbN_r9nJyN7fut0QmW4AfMsESt1MfGl8x88QRtCvL2KN-chjNjYbG37LfYtkhbrh-sACyZwehaGgLdoxJTGv1ks-Ka7AuR9dMVjCrvdllNLXvc_bT8NouhmsocRrPOM-DL3EZlaafbA6xE6CZ4rHzrqgwDf-2YsHpXEvFJHyqaX_7Fw"
+      ]
+    },
+    {
+      "screen": "qu_n_l_n_ng_tuy_n_l_i_m_i_kol_connect_ai",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/qu_n_l_n_ng_tuy_n_l_i_m_i_kol_connect_ai/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/qu_n_l_n_ng_tuy_n_l_i_m_i_kol_connect_ai/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuApepH2T9xd5Mdah_fskBURHpvMXIroPugc83a92Ow6YRqcu1995S9-amVWEaZqRQaxrbcoklwbYcnGI9VwstrZMGimqrBLCYSb-pU7fQKUjXAiGmpwCsJRUh_Oc6T54xKHg9MWi0P2iHgPIMs5EuJ1MaHqpPEgPNSrHeVYIUiX6bXW6kEZpoan6X_d6O6jwMwli9ew6NO5E_gj8Y5JBDgaRLYfjFQcbjcOJum7KisdbppD4GeE3Q6hfg",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBUprig4cL2ElrXjNO6gikENA8Ago-zEvJd2nxtMig-XMw5eanBB6migRTCq22-lw1l6a9hnAjoLlxHEk9A1O-DiPDZ1iQ2HXDZWlA-XFAQRWbii-V6-RoM40IrqxkxIty7ZpzP0tFDPGMBiolIhjhrUCZpP7bHjbgPqPxJ92HfaLH4Of2Uy4ttiI0_t0zz6e2NMzZSOdclRFV7wE2j3xi4LKLQN0e2WkK-d6Rf17TzEDWi-ucZQ_HnHQ",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCDjhUkk8uErdLXNCIIo7aCSTL3-He3ZNTzpVbtOhoP8VMAeikqI_MSGqP9dp0dTcUu2wnYE3njK2fSyrFyGcO51SBQpjdfP12xv6oQiqcMtS3dAV1Nkbq6aE0zj9u6mD4K8b5hLMJLfUQLs8B0SlgRnZoqEvzCL2UVwEqx5xhD1UerrAtNwyNDHXtakMPZKWWvtKtFR2ui0hxjyLYupX0ejtOIsuv0-7j1o0NZj2Sw_-GbrtrPIVBykg"
+      ]
+    },
+    {
+      "screen": "qu_n_l_ng_vi_n_duy_t_b_i_nh_p_kol_connect_ai",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/qu_n_l_ng_vi_n_duy_t_b_i_nh_p_kol_connect_ai/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/qu_n_l_ng_vi_n_duy_t_b_i_nh_p_kol_connect_ai/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuACi-XGiwO3QrjU55uq-aVrV3kYecOUaxFywTGpinzItW2q5McWMsRELokEma3q-w2LutuYPTuu7QM8wevgw5N8iSXibEFt7gpPT9JMzlnTUqYo2ahq8yWAJkIaelnVSkknnPpTdQTWiQcTUgjGxxMuCyDg3U-vSUgaCrNrQnK4QX2ExYAubLo_F1tjTaC-q_ewioDllwRyMF6MmmRveY8i4bb-QXBo_kPX_QGRkzN1kxztq1qjhvXwQw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuAxcJ4qZmC5uWx-8NTSBMxi3troSYepy9h8GCcYzt6Jvx6IFFTTh6Gbxuv8Uy8eRJvK9lRpS1Wcg1jaeyGe9Lp0_gVzc3SoJodHhNn70WeImk_zEM3orpuyBO4YlUXsg3OcNtRC4YXYkwRRsMe73V8CUyWt-_GzPIHhUyZNQCwR2PvT1dnU4LeqlOJX5DQXCj7LBvdV-8yM3B9JwxPwXlIMBU6EaukpCx2RDlYDJeSvWN09F9Ng_zFhlA",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuAyRHh2lbN51JLc3mqbc4D-Bui8uxxSyf7iGX03sxcu6Sct1Dx8RagydDRW07OfvJe9YJ3x85stRb6h5P7fR0nQRj6UnWiaW62mF4rWl_xFA3JnbhJYz4OPHiIG_wkCROKdP3yBDdEtalXzJRAdORd-aX1THWOxaqsKrravI8aKhXy2QPs1ZRPAXQ7f6esB12JYwZtAlKiHc263xpCBz21xfG1lMUPJ8o4BI8rTW6SFY3tspG4qHUwmIw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDCuZ0PO1nEWvgkMAXQF98oStNFEFc1DVOOr5NK8OXOs8Sr94GKBf8YHkBe9_ewMUG2zfy--Ny4kYMPy_g6Sdtauvj4kXmaiWuoZmLkvo2E_ar5ZkK-OD2A7mlpsMzQ9PdGaUjxEnCJAmrYswipIZJ90D9ZFcIGFedQHIpjv4Fko6JMwh8FkwK6QmbfDvFVy0U4ZJYCFnuHveiptgHQAaTMEWEIbaVcYYWy2ZnmgKmBqFl179J-qv34tA",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDlkC2NSNmS_EpmH1fPZdlCfrspOGTxPqEY3GmIhxBMvwMJwx5kN-7rKrqgKoyd1qf2IPqojBXt04uK5qsClLDbm_K7OK9rD4mQox9Ert8C_zrxirWeUlXLGutkND-iPcyKV3l-pYHOZcDyD4mMn021_OVGq-4d4uIEKoUG5alRHIDQ5QgsCR1144XdGV5viS42a54aYSuJPhzX9ZXseR7nG1yoiFEVrWBhSwdbHN2lzeXB0yPONf8aBA",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDwVqD0HnOp3zteLSkIlpGavhVltjPC3TcKf9wpVTaDTgrECwR2WEEyklZ964wxRsCbvcvyGVcKa13ppOHtYS58d4Zii5aJevVBOfbepkNz24faOqd16D_q1Ht5y4tGAvXxH3Pi2HtWyZZfprj6qIrPsh1HNb66s-8XujSDC3t7g-YpkeLaB268umXJbBZSIXhiJHH9Y3DmiIlPnRCBadC4jmIZJhsjgKbMW67eW0XCWRM3ws5V2S2CJw",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDyyf8z7T69scbT85JPJZXtLbziVuuSq54WF6BKvraUKCrlyRMUPAqSO5m4HcwW_dxUrNxq0endjRszAoPSxHNWeZN-0DWPU9X-d9hOUoZP2UIkirJHszYaSKmf0FNi3WRuPtPgRkDPTR1_g0BNbxuYB4aOLXQsyqT-mRLlPWtIMcSrlNJ0togDLHaCPw_fuaD99Ps43flw4DjioQ0Evvkh-y19RWjBTaBkuATc8SN6p_CymkeZYGOmdw"
+      ]
+    },
+    {
+      "screen": "trang_ch_kol_connect_ai",
+      "html": "stitch_kol_connect_ai_ui_ux_design 2/trang_ch_kol_connect_ai/code.html",
+      "screenshot": "stitch_kol_connect_ai_ui_ux_design 2/trang_ch_kol_connect_ai/screen.png",
+      "assets": [
+        "https://cdn.tailwindcss.com",
+        "https://fonts.googleapis.com",
+        "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;display=swap",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap",
+        "https://fonts.gstatic.com",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuAtPcaW3ocDkQpNcxm3bpwbWu-fiBmWMnEc1ASvCsnf5wT9uAz7GSEBIVnTArlGwOp5Ekjj_e6gag1RUTQz-nw6zdyIVUBuLhqAoy7beCO_lHFpMWQ6jBiOJlPZErajKkkJeoWo4rg7YCnZ56zlQdZvEnuHRohLpdWTzWhezcWZ4smi3mnCDDxgAY7Js51gzREcyCDA_Wu-OBqKYevq6uxQm476Wl-tRAM_K6BWhh75eGKdlobT5RaNsQ",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuB8FU6I2bvoU1AFShMleihCt6ZfQ_2u--X6lzNLkJfG4ywBRnPpWU58r0AaVtNLjnb9W5VU-fcP03RG2d6sS01znCILSxATI8y6HXzdgDBfAoy_oDToXmM4Cuf_X-_fjrygZc16qlqZs8mX5YCyxULr5te2Ue558uLohxUx_kjzMlZAVGJ-4GQ5BjeiwQR0M_3m76QGsj_l6y1pHFQSxwYfMh88u7K1B83ulCZvB_YzfV8RUDsoszQxAA",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuBqTmU66sdNCrHd9k71Sp1eCOosmX9JUYsA5C150TMp1NZWMWkFKuLy30_mabzKamKI5CT9O0m1Tk_zzs55zmc-KHTR8Rj-ze6XWPIkfDqzmHEUBjoLYt2qKRCC0zEjZZO9_3vI5VOxpWbVQby_pz3OCTI67CY9-YZumjdqRpoRFWFu1wk3gntr1r-oQKEMh9gc7s7AWTB3JwP2eaFn-buUEoA8xuqzN8J1g34AUnZuK9V52kFZ76S45w",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCTe-OELCN16taCJbKmAiQvMWKrT6MFe57fQSNTERBP5Lv-hfOpMw_oSmQ5kdzSG0Xu5xaksNwV099gbw4dNZzKQmjGxyogt0rZWEE7ZHFiYPiaSqwjts1r5adetl4Rhe7xT0tXKatoR-k7n6R3Vlma0T5V0P8-mB7U0uaLVGCTRH8PpEWsaoE2AMj2XHxrghdS1nY5UzMeiEO9M0U-Vd3s4LWMh7eEVicQ0uWa2WIX338RHaZww6FI-A",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCXPF3cWLtBGP2hMGBlXPPs50noMjldWKJKkdvWhT-_wtm5OcSxNU5HOxPGE-Sf-2eBlu347XdHYvEqaMkxn29um3DfTNhBAYp8ayiqV5S0SNHMQxhR4dvqpsNwDQTWpZJjgCS9II1xz_96uM3GHN9xGQpQDq7VsyFMOdPPWO5utTa1ySKsuJbkyMAn2qPyp1tWwk7lMwWKf7wtyAtVTN6hpxTLlfGxD8DODH3X-75KN28cr_4Ld768NA",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCdu0nu3L0MgIufDHlc7qFVcUqKQM8Lzeb37tEto2_RI0pqV0l7qLpjMeM8cHXnPNKJEVfXBr5xXf7_pXAN0x0ZeW3_IDvR_Sj2FnVow7U_ypn3-TXiIGQX1Hjb_-Mt122BFVHBbpGh50VSk8yEYUQ0WgpJ_wmqd-0Nu2qCziulnKKBUqouHxjLcbjSVBOlUHp0IzFCK8wqsOwUb6MxZio_Ns0jpt4PslFCG6-Q8xi9AkaxrQFWVkyN6Q",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDau1jAnnQCY6ZsHlNM-fcdl7uYk8ri5IW-GZ3viygfNDcEP-BMmg33pFEtY8lhwY9gANREof3kUO18Glbv1K_DZLSr3lphhG4xu3git84QlEnv8P3i9BsvjiDkkkhaKQzpkV4_5zZdUwdzY2DXemoYDiXFF4WYUIjum2J3zgMnmbCk5EgLicmcYdO2Z0nf_mhuvWodqgnUgQ6uq-e9CxiJtV7rnJngnnxM0a7J33XRL0fddjACqGw30A",
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDsKWNGS7XrSGGVPCqlsEqA1yFphSQNbDRc1TXBuuph_WgiN8NeZ0WDmWdA859CPf1loBku4ZYTQDeG3RruA_8ERQ3TpNozjwJDE_v4E0enh1rX39aAakFlKHl9o3vYWoQRwSCpPmZ8LhrSrXvOviEPQN2PO4P9ZMqDmgsc2dsU2QQvSM_-0CXnPgfCUX5-1vZrhBVl1EOop34AUIbGeDCRwOWkwuUORBT89vGXUfsk46LCnKdubwvtVg",
+        "https://lh3.googleusercontent.com/aida/AEtjO1W-WGYGrJtV_L6qYF-LUz7crLZ4fZ5B3pNjHuQaJCaQZRWt_Wzc3X4Yy6x0WYcvQ0wkUEdpV-h8bBOYDGqRI8n7J1_8viR_yCjSqYmSSV1e-6Gb8_04L_ETyaBsrOH8LzUkGJqXpsSoxqsxwW4_iDqg90nogoWRBdi2YK0JQV3nj-9iJ_jEsIGxam6_TqFOdXrpNLEkBk2yuBpFBCwGfodypa8ts5Gj0uw63IWtKNdB9owlWeLahtS5PY08"
+      ]
+    }
+  ]
+}

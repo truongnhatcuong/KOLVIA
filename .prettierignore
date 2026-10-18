@@ -1,0 +1,8 @@
+node_modules
+.next
+.cache
+.env*
+stitch.mcp.toml
+package-lock.json
+prisma/*.db*
+test-results

@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.cache/
+.env
+.env.*
+!.env.example
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.tsbuildinfo
+stitch.mcp.toml
+test-results/

@@ -1,0 +1,267 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  KOL
+  ORGANIZER
+  ADMIN
+}
+enum Moderation {
+  DRAFT
+  PENDING
+  APPROVED
+  REJECTED
+}
+enum JobStatus {
+  OPEN
+  CLOSED
+  ARCHIVED
+  COMPLETED
+}
+enum ParticipationStatus {
+  CONFIRMED
+  WITHDRAWAL_PENDING
+  WITHDRAWAL_REJECTED
+  WITHDRAWN_APPROVED
+  WITHDRAWN_UNAPPROVED
+}
+enum WithdrawalStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  LEFT_WITHOUT_APPROVAL
+}
+enum WithdrawalTiming {
+  BEFORE_EVENT
+  WITHIN_24H
+  EVENT_STARTED
+}
+enum ApplicationStatus {
+  PENDING
+  ACCEPTED
+  REJECTED
+  WITHDRAWN
+}
+enum InvitationStatus {
+  PENDING
+  ACCEPTED
+  DECLINED
+  WITHDRAWN
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique @db.VarChar(254)
+  name         String
+  passwordHash String
+  role         Role
+  active       Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  kol          KolProfile?
+  organizer    OrganizerProfile?
+  sessions     Session[]
+  jobs         Job[]
+  applications Application[]
+  invitations  Invitation[]
+  participations Participation[]
+  media        MediaAsset[]
+  notifications Notification[]
+  applicationHistory ApplicationHistory[]
+  reviewedWithdrawals WithdrawalRequest[] @relation("WithdrawalReviewer")
+}
+
+model Session {
+  tokenHash String @id
+  userId    String
+  expiresAt DateTime
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model KolProfile {
+  id         String @id @default(cuid())
+  userId     String @unique
+  bio        String @default("") @db.VarChar(2000)
+  category   String @default("Lifestyle")
+  location   String @default("")
+  skills     String @default("") @db.VarChar(1000)
+  experienceYears Int @default(0)
+  isPublic   Boolean @default(false)
+  user       User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  socialLinks SocialLink[]
+  @@index([category, isPublic])
+}
+
+model SocialLink {
+  id         String @id @default(cuid())
+  profileId  String
+  platform   String
+  url        String @db.VarChar(1000)
+  kind       String
+  profile    KolProfile @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  @@unique([profileId, platform, kind])
+}
+
+model OrganizerProfile {
+  id          String @id @default(cuid())
+  userId      String @unique
+  companyName String
+  description String @default("") @db.VarChar(4000)
+  location    String @default("")
+  website     String @default("") @db.VarChar(1000)
+  user        User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Job {
+  id              String @id @default(cuid())
+  organizerId     String
+  title           String
+  description     String @db.Text
+  requirements    String @db.Text
+  benefits        String @default("") @db.VarChar(5000)
+  capacity        Int @default(10)
+  recruitmentVersion Int @default(0)
+  category        String
+  location        String
+  budgetMin       Int
+  budgetMax       Int
+  deadline        DateTime
+  eventDate       DateTime
+  completedAt     DateTime?
+  moderation      Moderation @default(DRAFT)
+  moderationNote  String @default("") @db.VarChar(2000)
+  status          JobStatus @default(OPEN)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  organizer       User @relation(fields: [organizerId], references: [id])
+  applications    Application[]
+  invitations     Invitation[]
+  participations  Participation[]
+  media           MediaAsset[]
+  @@index([organizerId, createdAt])
+  @@index([moderation, status, deadline])
+}
+
+model Application {
+  id        String @id @default(cuid())
+  jobId     String
+  kolId     String
+  message   String @db.Text
+  status    ApplicationStatus @default(PENDING)
+  createdAt DateTime @default(now())
+  job       Job @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  kol       User @relation(fields: [kolId], references: [id])
+  history   ApplicationHistory[]
+  @@unique([jobId, kolId])
+  @@index([kolId, createdAt])
+}
+
+model Invitation {
+  id        String @id @default(cuid())
+  jobId     String
+  kolId     String
+  message   String @db.Text
+  status    InvitationStatus @default(PENDING)
+  createdAt DateTime @default(now())
+  job       Job @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  kol       User @relation(fields: [kolId], references: [id])
+  @@unique([jobId, kolId])
+  @@index([kolId, createdAt])
+}
+
+model Participation {
+  id        String @id @default(cuid())
+  jobId     String
+  kolId     String
+  source    String
+  createdAt DateTime @default(now())
+  confirmedAt DateTime @default(now())
+  status    ParticipationStatus @default(CONFIRMED)
+  leftAt    DateTime?
+  withdrawals WithdrawalRequest[]
+  job       Job @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  kol       User @relation(fields: [kolId], references: [id])
+  @@unique([jobId, kolId])
+  @@index([jobId, status])
+  @@index([kolId, status])
+}
+
+model ApplicationHistory {
+  id            String @id @default(cuid())
+  applicationId String
+  actorId       String?
+  status        ApplicationStatus
+  message       String @db.VarChar(2000)
+  action        String @db.VarChar(30)
+  occurredAt    DateTime @default(now())
+  application   Application @relation(fields: [applicationId], references: [id], onDelete: Restrict)
+  actor         User? @relation(fields: [actorId], references: [id], onDelete: Restrict)
+  @@index([applicationId, occurredAt])
+  @@index([actorId])
+}
+
+model WithdrawalRequest {
+  id                String @id @default(cuid())
+  participationId   String
+  activeSlot        String? @unique
+  reason            String @db.VarChar(2000)
+  status            WithdrawalStatus @default(PENDING)
+  timing            WithdrawalTiming
+  eventDateAtRequest DateTime
+  sourceAtRequest   String
+  requestedAt       DateTime @default(now())
+  reviewedAt        DateTime?
+  reviewedById      String?
+  decisionNote      String @default("") @db.VarChar(2000)
+  departedAt        DateTime?
+  participation     Participation @relation(fields: [participationId], references: [id], onDelete: Restrict)
+  reviewedBy        User? @relation("WithdrawalReviewer", fields: [reviewedById], references: [id], onDelete: Restrict)
+  @@index([participationId, requestedAt])
+  @@index([status, requestedAt])
+  @@index([reviewedById])
+}
+
+model LoginAttempt {
+  key       String @id
+  count     Int @default(1)
+  expiresAt DateTime
+}
+
+model MediaAsset {
+  id        String @id @default(cuid())
+  ownerId   String
+  jobId     String?
+  target    String
+  slot      String? @unique
+  key       String @unique @db.VarChar(512)
+  url       String @db.Text
+  name      String @db.Text
+  size      Int
+  createdAt DateTime @default(now())
+  deletedAt DateTime?
+  owner     User @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  job       Job? @relation(fields: [jobId], references: [id], onDelete: SetNull)
+  @@index([ownerId, target])
+  @@index([jobId])
+}
+
+model Notification {
+  id        String @id @default(cuid())
+  userId    String
+  type      String
+  title     String @db.VarChar(150)
+  message   String @db.VarChar(2000)
+  href      String @db.VarChar(500)
+  readAt    DateTime?
+  createdAt DateTime @default(now())
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@index([userId, readAt, createdAt])
+}
