@@ -13,6 +13,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ p
       <PageHeading
         title="Quản lý toàn bộ Job."
         description="Đọc nội dung, theo dõi trạng thái và quản lý Job trên nền tảng."
+        action={<span className="rounded-xl border border-line bg-white px-4 py-2 text-sm font-medium">{view.total} Job</span>}
       />
       <AdminJobs jobs={view.items} />
       <Pagination page={view.page} pages={view.pages} pathname="/admin/jobs" values={{}} />
